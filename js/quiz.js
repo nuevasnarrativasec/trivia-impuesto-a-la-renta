@@ -58,7 +58,7 @@ const preguntas = [
             { 
                 pregunta: "Si recibo ingresos por cuarta categoría y mis ingresos son menores a  S/46.813 anuales, ¿debo declarar impuestos?", 
                 opciones: ["A. Sí", "B. No"], 
-                correcta: 1, 
+                correcta: 0, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/09.png", 
                 mensaje: ["¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año. ", "Incorrecto. Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año. "] 
             },
@@ -102,6 +102,8 @@ const preguntas = [
             }
             document.getElementById("siguiente").disabled = false;
             botones.forEach(boton => boton.disabled = true);
+
+            window.scrollBy({ top: 200, behavior: "smooth" });
         }
 
         function siguientePregunta() {

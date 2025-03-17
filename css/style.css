@@ -237,6 +237,9 @@ body, html {
         font-size: 1.3rem;
         padding: 40px 20px;
     }
+    #quiz{
+        padding-bottom: 80px;
+    }
     #quiz h2{
         font-size: 1.5rem;
     }
