@@ -258,3 +258,11 @@ body, html {
     }
 
 }
+
+@media only screen and (max-height: 732px) {
+    .main-portada{
+        background: url('https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/bg-portada-732.jpg?v2') no-repeat center top;
+        background-size: cover;
+    }
+
+}
