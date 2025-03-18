@@ -1,10 +1,10 @@
 const preguntas = [
             { 
                 pregunta: "¿Quiénes deben presentar el Impuesto a la Renta?", 
-                opciones: ["A. Todas las Personas Con Negocio o Empresa  ", "B. Todas las Personas Naturales Sin Negocio", "C. A y B "], 
+                opciones: ["A. Todas las personas con negocio o empresa", "B. Todas las personas naturales sin negocio", "C. A y B "], 
                 correcta: 2, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/01.png", 
-                mensaje: ["¡Incorrecto! Recuerda que tanto las Personas Con Negocio o Empresa y las Personas Naturales Sin Negocio deben declarar el Impuesto a la Renta.", "¡Incorrecto! Recuerda que tanto las Personas Con Negocio o Empresa y las Personas Naturales Sin Negocio deben declarar el Impuesto a la Renta.", "¡Correcto! Tanto las Personas Con Negocio o Empresa y las Personas Naturales Sin Negocio deben declarar el Impuesto a la Renta."] 
+                mensaje: ["¡Incorrecto! Recuerda que tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta.", "¡Incorrecto! Recuerda que tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta.", "¡Correcto! Tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta."] 
             },
             { 
                 pregunta: "¿Mi declaración de Impuesto a la Renta 2025 se determina anualmente, eso quiere decir que abarca las rentas o pérdidas del 01 de enero al 31 de diciembre?", 
@@ -18,7 +18,7 @@ const preguntas = [
                 opciones: ["A. La renta de cuarta categoría es para trabajadores dependientes y la de quinta es para independientes.", "B. La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes.", "C. Ambos son iguales."], 
                 correcta: 1, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/03.png", 
-                mensaje: ["¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes.", "¡Correcto! Recuerda también que los trabajadores de renta de cuarta categoría reciben sus pagos por Recibos por Honorarios, mientras que a los de quinta categoría mediante planilla.","¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes."] 
+                mensaje: ["¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes.", "¡Correcto! Recuerda también que los trabajadores de renta de cuarta categoría reciben sus pagos por recibos por honorarios, mientras que a los de quinta categoría mediante planilla.","¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes."] 
             },
             { 
                 pregunta: "¿Una persona que recibe su remuneración en planilla y que a las retenciones de su Impuesto a la Renta se le suman asignaciones, bonificaciones, aguinaldos y utilidades, de qué categoría es?", 
@@ -28,18 +28,18 @@ const preguntas = [
                 mensaje: ["¡Incorrecto! Las personas que reciben su remuneración en planilla son de renta de quinta categoría.", "¡Incorrecto! Las personas que reciben su remuneración en planilla son de renta de quinta categoría.","¡Incorrecto! Las personas que reciben su remuneración en planilla son de renta de quinta categoría.","¡Incorrecto! Las personas que reciben su remuneración en planilla son de renta de quinta categoría.","¡Correcto! Las rentas de quinta categoría son las que se obtienen por el trabajo en relación de dependencia."] 
             },
             { 
-                pregunta: "¿Una persona que recibe su remuneración por Recibos por Honorarios, de qué categoría es?", 
+                pregunta: "¿Una persona que recibe su remuneración por recibos por honorarios, de qué categoría es?", 
                 opciones: ["A. Primera", "B. Segunda", "C. Tercera", "D. Cuarta", "E. Quinta"], 
                 correcta: 3, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/05.png", 
-                mensaje: ["¡Incorrecto! Las personas que reciben su remuneración por Recibo por Honorarios son de renta de cuarta categoría.", "¡Incorrecto! Las personas que reciben su remuneración por Recibo por Honorarios son de renta de cuarta categoría.","¡Incorrecto! Las personas que reciben su remuneración por Recibo por Honorarios son de renta de cuarta categoría.","¡Correcto! Las rentas de cuarta categoría son las que se obtienen por el ejercicio independiente de una profesión y oficio.","¡Incorrecto! Las personas que reciben su remuneración por Recibo por Honorarios son de renta de cuarta categoría."] 
+                mensaje: ["¡Incorrecto! Las personas que reciben su remuneración por recibo por honorarios son de renta de cuarta categoría.", "¡Incorrecto! Las personas que reciben su remuneración por recibo por honorarios son de renta de cuarta categoría.","¡Incorrecto! Las personas que reciben su remuneración por recibo por honorarios son de renta de cuarta categoría."," ¡Correcto! Las rentas de cuarta categoría son las que se obtienen por el ejercicio independiente de una profesión y oficio.","¡Incorrecto! Las personas que reciben su remuneración por recibo por honorarios son de renta de cuarta categoría."] 
             },
             { 
                 pregunta: "¿Cuánto deben ganar los contribuyentes de cuarta categoría como máximo anualmente para estar exonerados del Impuesto a la Renta, según la normativa vigente?", 
                 opciones: ["A. Máximo S/ 46.813", "B. Máximo S/ 45.234", "C. Máximo S/ 43.678"], 
                 correcta: 0, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/06.png", 
-                mensaje: ["¡Correcto! Puedes presentar tu solicitud de suspensión de retenciones de cuarta categoría a través de Sunat.", "¡Incorrecto! Los contribuyentes de cuarta categoría como máximo deben ganar anualmente S/ 46.813.","¡Incorrecto! Los contribuyentes de cuarta categoría como máximo deben ganar anualmente S/ 46.813.",] 
+                mensaje: [" ¡Correcto! Puedes presentar tu solicitud de suspensión de retenciones de cuarta categoría a través de Sunat.", "¡Incorrecto! Los contribuyentes de cuarta categoría como máximo deben ganar anualmente S/ 46.813.","¡Incorrecto! Los contribuyentes de cuarta categoría como máximo deben ganar anualmente S/ 46.813.",] 
             },
             { 
                 pregunta: "¿Cuánto deben ganar los contribuyentes de quinta categoría como máximo anualmente para estar exonerados del Impuesto a la Renta, según la normativa vigente?", 
@@ -56,14 +56,14 @@ const preguntas = [
                 mensaje: ["¡Incorrecto! Según Jorge Carrillo, experto en finanzas de Pacífico Business School,  si generas ingresos por cuarta y quinta categoría, debes tomar en cuenta que la suma de los ingresos por planilla y el 80% de los recibos por honorarios no excedan los S/ 37.450 para no declarar impuestos.", "¡Correcto! Según Jorge Carrillo, experto en finanzas de Pacífico Business School,  si generas ingresos por cuarta y quinta categoría, debes tomar en cuenta que la suma de los ingresos por planilla y el 80% de los recibos por honorarios no excedan los S/ 37.450 para no declarar impuestos.", "¡Incorrecto! Según Jorge Carrillo, experto en finanzas de Pacífico Business School,  si generas ingresos por cuarta y quinta categoría, debes tomar en cuenta que la suma de los ingresos por planilla y el 80% de los recibos por honorarios no excedan los S/ 37.450 para no declarar impuestos.",] 
             },
             { 
-                pregunta: "Si recibo ingresos por cuarta categoría y mis ingresos son menores a  S/46.813 anuales, ¿debo declarar impuestos?", 
+                pregunta: "Si recibo ingresos por cuarta categoría y mis ingresos son menores a S/46.813 anuales, ¿debo declarar impuestos?", 
                 opciones: ["A. Sí", "B. No"], 
                 correcta: 0, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/09.png", 
                 mensaje: ["¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año.", "¡Incorrecto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año."] 
             },
             { 
-                pregunta: "Si recibo mi sueldo en planilla por 5ta categoría y mis ingresos son menores a S/37.450, ¿debo declarar impuestos?", 
+                pregunta: "Si recibo mi sueldo en planilla por quinta categoría y mis ingresos anuales son menores a S/37.450, ¿debo declarar impuestos?", 
                 opciones: ["A. Sí", "B. No necesariamente"], 
                 correcta: 1, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/10.png", 
