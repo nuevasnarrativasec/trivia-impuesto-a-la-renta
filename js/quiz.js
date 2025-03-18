@@ -117,15 +117,28 @@ const preguntas = [
 
         function mostrarResultado() {
             let mensajeFinal = "";
+            let imagen = "";
+        
             if (respuestasCorrectas <= 3) {
-                mensajeFinal = "¡Oh, no! Aún falta que revises la web de El Comercio, específicamente la sección de Economía y Día 1 para que te enteres de todo sobre el Impuesto a la Renta. ¡Suscríbete😉! ";
+                mensajeFinal = "¡Oh, no! Aún falta que revises la web de El Comercio, específicamente la sección de Economía y Día 1 para que te enteres de todo sobre el Impuesto a la Renta. ¡Suscríbete😉!";
+                imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-1.webp"; 
             } else if (respuestasCorrectas <= 7) {
                 mensajeFinal = "¡Vamos que casi se logra! Solo una revisión más a la web de El Comercio y ya estamos con el conocimiento a tope sobre el Impuesto a la Renta. ¡Suscríbete! 😉.";
+                imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-2.webp"; 
             } else {
-                mensajeFinal = "¡Qué crack!  Seguro te llaman el / la Messi de los Impuestos.  Mantente informado para que no pierdas ese conocimiento y la oportunidad de acceder a nuestro contenido exclusivo. ¡Suscríbete a El Comercio! 😉.";
+                mensajeFinal = "¡Qué crack! Seguro te llaman el / la Messi de los Impuestos. Mantente informado para que no pierdas ese conocimiento y la oportunidad de acceder a nuestro contenido exclusivo. ¡Suscríbete a El Comercio! 😉.";
+                imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-3.webp"; 
             }
-            document.getElementById("quiz").innerHTML = `<h2>Test finalizado</h2><p>Respuestas correctas: ${respuestasCorrectas} de ${preguntas.length}</p><p>${mensajeFinal}</p><button onclick='reiniciarTest()' id='reset'>Reiniciar Test</button>`;
+        
+            document.getElementById("quiz").innerHTML = `
+                <h2>Test finalizado</h2>
+                <p>Respuestas correctas: ${respuestasCorrectas} de ${preguntas.length}</p>
+                <img src="${imagen}" alt="Mensaje final" width="100%">
+                <p>${mensajeFinal}</p>
+                <button onclick='reiniciarTest()' id='reset'>Reiniciar Test</button>
+            `;
         }
+        
 
         function reiniciarTest() {
             indicePregunta = 0;

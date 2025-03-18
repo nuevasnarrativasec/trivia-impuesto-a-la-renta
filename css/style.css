@@ -209,7 +209,7 @@ body, html {
             font: 1.5rem/1.2 'prelobold';      
             margin: 10px auto;      
         }
-        #quiz p:nth-child(3){
+        #quiz p:nth-child(4){
             font: 1.1rem/1.4 'prelomedium';
         }
     #reset{
@@ -227,7 +227,7 @@ body, html {
         display: inline-block;
     }
     .main-portada{
-        background: url('https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/bg-portada-movil-2.jpg') no-repeat center top;
+        background: url('https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/bg-portada-movil-3.jpg') no-repeat center top;
         background-size: cover;
     }
     .box-titular {
