@@ -173,6 +173,7 @@ body, html {
         text-align: center;
     }
     #quiz button {
+        background-color: #efefef;
         border-radius: 10px;
         border: none;
         color: #000;
@@ -184,7 +185,7 @@ body, html {
         text-align: left;                
         width: 100%;
     }
-    #siguiente {
+    #quiz #siguiente {
         background-color: #ba68c8;
         border: none;
         color: white;
@@ -211,8 +212,9 @@ body, html {
         }
         #quiz p:nth-child(4){
             font: 1.1rem/1.4 'prelomedium';
+            margin: 20px auto;
         }
-    #reset{
+    #quiz #reset{
         background-color: #ba68c8;
         color: #fff;
         cursor: pointer;
