@@ -7,7 +7,7 @@ const preguntas = [
                 mensaje: ["¡Incorrecto! Recuerda que tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta.", "¡Incorrecto! Recuerda que tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta.", "¡Correcto! Tanto las personas con negocio o empresa y las personas naturales sin negocio deben declarar el Impuesto a la Renta."] 
             },
             { 
-                pregunta: "¿Mi declaración de Impuesto a la Renta 2025 se determina anualmente, eso quiere decir que abarca las rentas o pérdidas del 01 de enero al 31 de diciembre?", 
+                pregunta: "Mi declaración de Impuesto a la Renta 2025 se determina anualmente. ¿Eso quiere decir que abarca las rentas o pérdidas del 01 de enero al 31 de diciembre?", 
                 opciones: ["A. Verdadero", "B. Falso"], 
                 correcta: 0, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/02.png", 
@@ -21,7 +21,7 @@ const preguntas = [
                 mensaje: ["¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes.", "¡Correcto! Recuerda también que los trabajadores de renta de cuarta categoría reciben sus pagos por recibos por honorarios, mientras que a los de quinta categoría mediante planilla.","¡Incorrecto! La renta de cuarta categoría se aplica para trabajadores independientes y la quinta para dependientes."] 
             },
             { 
-                pregunta: "¿Una persona que recibe su remuneración en planilla y que a las retenciones de su Impuesto a la Renta se le suman asignaciones, bonificaciones, aguinaldos y utilidades, de qué categoría es?", 
+                pregunta: "¿A qué categoría pertenece una persona que recibe su remuneración en planilla y que a las retenciones de su Impuesto a la Renta se le suman asignaciones, bonificaciones, aguinaldos y utilidades?", 
                 opciones: ["A. Primera", "B. Segunda", "C. Tercera", "D. Cuarta", "E. Quinta"], 
                 correcta: 4, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/04.png", 
@@ -43,7 +43,7 @@ const preguntas = [
             },
             { 
                 pregunta: "¿Cuánto deben ganar los contribuyentes de quinta categoría como máximo anualmente para estar exonerados del Impuesto a la Renta, según la normativa vigente?", 
-                opciones: ["A. Máximo S/ 37.455", "B. Máximo S/ 38.450", "C. Máximo S/ 37.450"], 
+                opciones: ["A. Máximo S/ 37.455", "B. Máximo S/ 36.000", "C. Máximo S/ 37.450"], 
                 correcta: 2, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/07.png", 
                 mensaje: ["¡Incorrecto! Los contribuyentes de quinta categoría como máximo deben ganar anualmente S/ 37.450.", "¡Incorrecto! Los contribuyentes de quinta categoría como máximo deben ganar anualmente S/ 37.450.", "¡Correcto! Puedes presentar tu solicitud de suspensión de retenciones de quinta categoría a través de Sunat.",] 
@@ -60,14 +60,14 @@ const preguntas = [
                 opciones: ["A. Sí", "B. No"], 
                 correcta: 0, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/09.png", 
-                mensaje: ["¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año.", "¡Incorrecto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría sí están obligados a declarar impuestos, así reciban anualmente menos de S/ 46.813. Por su parte, las personas en quinta categoría no están obligadas a declarar impuestos si reciben un importe menor a los S/ 37.450 al año."] 
+                mensaje: ["¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría están obligadas a declarar impuestos si reciben anualmente más de S/ 46.813.", "¡Incorrecto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en cuarta categoría están obligadas a declarar impuestos, si reciben anualmente más de S/ 46.813."] 
             },
             { 
                 pregunta: "Si recibo mi sueldo en planilla por quinta categoría y mis ingresos anuales son menores a S/37.450, ¿debo declarar impuestos?", 
                 opciones: ["A. Sí", "B. No necesariamente"], 
                 correcta: 1, 
                 imagen: "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/10.png", 
-                mensaje: ["¡Incorrecto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas que reciben su sueldo por quinta categoría y sus ingresos anuales son menores a S/ 37.450 pueden declarar impuestos, pero no están obligados a hacerlo.", "¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas que reciben su sueldo por quinta categoría y sus ingresos anuales son menores a S/ 37.450 pueden declarar impuestos, pero no están obligados a hacerlo."] 
+                mensaje: ["¡Incorrecto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en quinta categoría cuyos ingresos anuales son menores a S/ 37.450, pueden declarar impuestos, pero no están obligados a hacerlo.", "¡Correcto! Jorge Carrillo, experto en finanzas de Pacífico Business School, precisa que las personas en quinta categoría cuyos ingresos anuales son menores a S/ 37.450, pueden declarar impuestos, pero no están obligados a hacerlo."] 
             },
         ];
 
