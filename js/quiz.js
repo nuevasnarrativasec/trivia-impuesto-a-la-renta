@@ -120,13 +120,13 @@ const preguntas = [
             let imagen = "";
         
             if (respuestasCorrectas <= 3) {
-                mensajeFinal = "¡Oh, no! Aún falta que revises la web de El Comercio, específicamente la sección de Economía y Día 1 para que te enteres de todo sobre el Impuesto a la Renta. <a href='https://elcomercio.pe/economia/' target='_blank'>¡Suscríbete😉!</a>";
+                mensajeFinal = "¡Oh, no! Aún falta que revises <a href='https://elcomercio.pe/economia/' target='_blank'>la web de El Comercio</a>, específicamente la sección de Economía y Día 1 para que te enteres de todo sobre el Impuesto a la Renta. <a href='https://elcomercio.pe/suscripciones/' target='_blank'>¡Suscríbete😉!</a>";
                 imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-1.webp"; 
             } else if (respuestasCorrectas <= 7) {
-                mensajeFinal = "¡Vamos que casi se logra! Solo una revisión más a la web de El Comercio y ya estamos con el conocimiento a tope sobre el Impuesto a la Renta. <a href='https://elcomercio.pe/economia/' target='_blank'>¡Suscríbete! 😉</a>.";
+                mensajeFinal = "¡Vamos que casi se logra! Solo una revisión más a <a href='https://elcomercio.pe/economia/' target='_blank'>la web de El Comercio</a> y ya estamos con el conocimiento a tope sobre el Impuesto a la Renta. <a href='https://elcomercio.pe/suscripciones/' target='_blank'>¡Suscríbete! 😉</a>.";
                 imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-2.webp"; 
             } else {
-                mensajeFinal = "¡Qué crack! Seguro te llaman el / la Messi de los Impuestos. Mantente informado para que no pierdas ese conocimiento y la oportunidad de acceder a nuestro contenido exclusivo. <a href='https://elcomercio.pe/economia/' target='_blank'>¡Suscríbete a El Comercio! 😉</a>.";
+                mensajeFinal = "¡Qué crack! Seguro te llaman el / la Messi de los Impuestos. <a href='https://elcomercio.pe/economia/' target='_blank'>Mantente informado</a>  para que no pierdas ese conocimiento y la oportunidad de acceder a nuestro contenido exclusivo. <a href='https://elcomercio.pe/suscripciones/' target='_blank'>¡Suscríbete a El Comercio! 😉</a>.";
                 imagen = "https://nuevasnarrativasec.github.io/trivia-impuesto-a-la-renta/img/resultado-3.webp"; 
             }
         
